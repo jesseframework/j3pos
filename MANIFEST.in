@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include j3pos *.css
+recursive-include j3pos *.csv
+recursive-include j3pos *.html
+recursive-include j3pos *.ico
+recursive-include j3pos *.js
+recursive-include j3pos *.json
+recursive-include j3pos *.md
+recursive-include j3pos *.png
+recursive-include j3pos *.py
+recursive-include j3pos *.svg
+recursive-include j3pos *.txt
+recursive-exclude j3pos *.pyc
